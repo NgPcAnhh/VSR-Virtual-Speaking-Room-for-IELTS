@@ -29,28 +29,25 @@ Cấu trúc ứng dụng:
 Giao diện (Front-end): Giao diện sử dụng Tkinter, mang lại trải nghiệm thân thiện và dễ sử dụng.
 Xử lý nền (Back-end): Tích hợp các thư viện mạnh mẽ để xử lý âm thanh, nhận diện giọng nói, và quản lý dữ liệu.
 Hình ảnh minh họa:
-
+![image](https://github.com/user-attachments/assets/c438c2b5-d178-43b4-b3f3-3660962b30cf)
+![image](https://github.com/user-attachments/assets/d0fbaa59-fa80-407f-8d8b-4badce09a895)
 
 🔐 Hướng dẫn kích hoạt lần đầu
-Khi chạy ứng dụng lần đầu tiên, người dùng cần thực hiện mở khóa để sử dụng:
-
-Tìm số serial của máy tính:
-
-Nhấn tổ hợp Windows + R để mở cửa sổ Run.
-Nhập lệnh:
-plaintext
-Sao chép mã
-wmic bios get serialnumber
-Mã hóa bằng Base64:
-
-Tìm kiếm một công cụ mã hóa Base64 trực tuyến.
-Nhập số serial vừa lấy được để mã hóa Base64.
-Nhập mã đã mã hóa vào giao diện mở khóa:
-
-Điền chuỗi mã hóa vào ứng dụng và xác nhận.
-Sau khi mở khóa, bạn có thể sử dụng bình thường trong các lần tiếp theo.
+  Khi chạy ứng dụng lần đầu tiên, người dùng cần thực hiện mở khóa để sử dụng:
+    - Tìm số serial của máy tính:
+        Nhấn tổ hợp Windows + R để mở cửa sổ Run.
+    - Nhập lệnh:
+        wmic bios get serialnumber
+    - Mã hóa bằng Base64:
+        Tìm kiếm một công cụ mã hóa Base64 trực tuyến.
+        Nhập số serial vừa lấy được để mã hóa Base64.
+    - Nhập mã đã mã hóa vào giao diện mở khóa:
+        Điền chuỗi mã hóa vào ứng dụng và xác nhận.
+        Sau khi mở khóa, bạn có thể sử dụng bình thường trong các lần tiếp theo.
+    
 🎥 Video hướng dẫn sử dụng
 Xem video luyện tập tại đây
+https://youtu.be/VUjAZG3ekSY?si=MNsvGnKWrgpQt5o3
 
 © Bản quyền
 Ứng dụng được giữ bản quyền bởi Mr. Nguyễn Phúc Anh.
