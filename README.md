@@ -33,17 +33,18 @@ Hình ảnh minh họa:
 ![image](https://github.com/user-attachments/assets/d0fbaa59-fa80-407f-8d8b-4badce09a895)
 
 🔐 Hướng dẫn kích hoạt lần đầu
-  Khi chạy ứng dụng lần đầu tiên, người dùng cần thực hiện mở khóa để sử dụng:
-    - Tìm số serial của máy tính:
-        Nhấn tổ hợp Windows + R để mở cửa sổ Run.
-    - Nhập lệnh:
-        wmic bios get serialnumber
-    - Mã hóa bằng Base64:
-        Tìm kiếm một công cụ mã hóa Base64 trực tuyến.
-        Nhập số serial vừa lấy được để mã hóa Base64.
-    - Nhập mã đã mã hóa vào giao diện mở khóa:
-        Điền chuỗi mã hóa vào ứng dụng và xác nhận.
-        Sau khi mở khóa, bạn có thể sử dụng bình thường trong các lần tiếp theo.
+Run file VSR.py hoặc tải ứng dụng qua link sau: https://drive.google.com/¬le/d/1GLixEaRiA3RLYNujJxM03p9FtTVLEvt/view?usp=drive_link
+Khi chạy ứng dụng lần đầu tiên, người dùng cần thực hiện mở khóa để sử dụng:
+- Tìm số serial của máy tính:
+Nhấn tổ hợp Windows + R để mở cửa sổ Run.
+- Nhập lệnh:
+wmic bios get serialnumber
+- Mã hóa bằng Base64:
+Tìm kiếm một công cụ mã hóa Base64 trực tuyến.
+Nhập số serial vừa lấy được để mã hóa Base64.
+- Nhập mã đã mã hóa vào giao diện mở khóa:
+Điền chuỗi mã hóa vào ứng dụng và xác nhận.
+Sau khi mở khóa, bạn có thể sử dụng bình thường trong các lần tiếp theo.
     
 🎥 Video hướng dẫn sử dụng
 Xem video luyện tập tại đây
