@@ -33,7 +33,7 @@ Hình ảnh minh họa:
 ![image](https://github.com/user-attachments/assets/d0fbaa59-fa80-407f-8d8b-4badce09a895)
 
 🔐 Hướng dẫn kích hoạt lần đầu
-Run file VSR.py hoặc tải ứng dụng qua link sau: https://drive.google.com/¬le/d/1GLixEaRiA3RLYNujJxM03p9FtTVLEvt/view?usp=drive_link
+Run file VSR.py hoặc tải ứng dụng qua link sau: https://drive.google.com/¬le/d/1GLixEaRiA3RLYNujJxM03p9FtTVLEvt/view?usp=drive_link.
 Khi chạy ứng dụng lần đầu tiên, người dùng cần thực hiện mở khóa để sử dụng:
 - Tìm số serial của máy tính:
 Nhấn tổ hợp Windows + R để mở cửa sổ Run.
