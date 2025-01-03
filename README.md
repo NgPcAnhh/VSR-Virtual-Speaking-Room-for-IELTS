@@ -1,18 +1,60 @@
-# VSR_Second_Edition
-In the virtual speaking room, the users can experience the real exam of the IELTS speaking test computer-based and strengthen their mentality and speaking skills to prepare for the real test. This app is made by Python, with tkinter framework for front-end and pyodbc, speech_recognition, pyttsx3, pyaudio, wave and threading for back-end 
+VSR_Virtual_Speaking_Room for IELTS Speaking
+🎯 Giới thiệu
+VSR_Second_Edition là ứng dụng mô phỏng phòng thi nói IELTS trên máy tính, giúp người học trải nghiệm kỳ thi thật và nâng cao kỹ năng nói cũng như tâm lý phòng thi. Ứng dụng được phát triển bằng Python với giao diện sử dụng Tkinter Framework, cùng các thư viện hỗ trợ mạnh mẽ như:
 
-Following is the application's structure and some visual examples.
-![image](https://github.com/user-attachments/assets/c438c2b5-d178-43b4-b3f3-3660962b30cf)
-![image](https://github.com/user-attachments/assets/d0fbaa59-fa80-407f-8d8b-4badce09a895)
+Back-end: pyodbc, speech_recognition, pyttsx3, pyaudio, wave, threading.
+✨ Tính năng nổi bật
+Mô phỏng kỳ thi thật:
 
- It's a solution that saves time, effort, and manpower for the speaking practice phase, which normally requires an additional person to act as an examiner. Moreover, the app offers various modes such as full test practice or individual practice for part 1 or part 2+3. Therefore, the app is suitable for both beginners and experienced learners. The freedom to practice without limits helps learners improve their speaking skills significantly. 
- 
-*** Please note that the software does not have a grading function because computer cannot replace humans in grading speaking tests. For optimal learning and progress, it is recommended to use the recorded clips as materials for self-review or to seek feedback from more experienced individuals !!! 
+Hệ thống tái hiện toàn bộ cấu trúc bài thi nói IELTS (Part 1, Part 2 + Part 3).
+Giao diện thân thiện, mang lại cảm giác chuyên nghiệp và tương tự kỳ thi thực tế.
+Luyện tập linh hoạt:
 
-Here is the youtube video of the practise test: 
-https://youtu.be/VUjAZG3ekSY?si=MNsvGnKWrgpQt5o3
+Chế độ luyện tập toàn bộ bài thi hoặc luyện từng phần riêng biệt (Part 1 hoặc Part 2 + 3).
+Phù hợp cho người mới bắt đầu lẫn người học nâng cao.
+Tiết kiệm thời gian và nhân lực:
 
-When running the application for the first time, the user must unlock it once to use it. Steps to follow: Use the command to look up the computer's serial number by pressing Windows + R, then enter "wmic bios get serialnumber" in the terminal. Next, search online for a method to decode Base64 and find the Base64 encoding of the machine. Enter this encoding into the unlocking interface. After that, you can use it normally in all subsequent uses.
+Loại bỏ nhu cầu cần một người đóng vai trò giám khảo.
+Người học tự luyện tập không giới hạn, cải thiện kỹ năng nói hiệu quả.
+Ghi âm và tự đánh giá:
+
+Ghi lại toàn bộ phần trả lời của người học.
+Sử dụng các bản ghi âm để tự đánh giá hoặc xin nhận xét từ người có kinh nghiệm.
+📌 Lưu ý: Ứng dụng không tích hợp chức năng chấm điểm vì đánh giá phần thi nói vẫn cần yếu tố con người. Sử dụng các bản ghi âm để tự học hoặc xin nhận xét từ giáo viên/người có kinh nghiệm sẽ mang lại hiệu quả tốt nhất.
+
+📂 Cấu trúc ứng dụng và giao diện minh họa
+Cấu trúc ứng dụng:
+Ứng dụng bao gồm các thành phần chính:
+
+Giao diện (Front-end): Giao diện sử dụng Tkinter, mang lại trải nghiệm thân thiện và dễ sử dụng.
+Xử lý nền (Back-end): Tích hợp các thư viện mạnh mẽ để xử lý âm thanh, nhận diện giọng nói, và quản lý dữ liệu.
+Hình ảnh minh họa:
 
 
-THE COPYRIGHT IS HELD BY MR.NGUYEN PHUC ANH.
+🔐 Hướng dẫn kích hoạt lần đầu
+Khi chạy ứng dụng lần đầu tiên, người dùng cần thực hiện mở khóa để sử dụng:
+
+Tìm số serial của máy tính:
+
+Nhấn tổ hợp Windows + R để mở cửa sổ Run.
+Nhập lệnh:
+plaintext
+Sao chép mã
+wmic bios get serialnumber
+Mã hóa bằng Base64:
+
+Tìm kiếm một công cụ mã hóa Base64 trực tuyến.
+Nhập số serial vừa lấy được để mã hóa Base64.
+Nhập mã đã mã hóa vào giao diện mở khóa:
+
+Điền chuỗi mã hóa vào ứng dụng và xác nhận.
+Sau khi mở khóa, bạn có thể sử dụng bình thường trong các lần tiếp theo.
+🎥 Video hướng dẫn sử dụng
+Xem video luyện tập tại đây
+
+© Bản quyền
+Ứng dụng được giữ bản quyền bởi Mr. Nguyễn Phúc Anh.
+Mọi sao chép hoặc sử dụng lại phần mềm mà không có sự đồng ý của tác giả đều không được phép.
+
+💡 Lời kết
+VSR_Second_Edition là giải pháp toàn diện giúp bạn chuẩn bị tốt nhất cho phần thi nói IELTS. Hãy tận dụng tính năng ghi âm và các chế độ luyện tập để không ngừng cải thiện kỹ năng nói của bạn! 🌟
