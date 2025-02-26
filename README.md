@@ -47,8 +47,12 @@ Nhập số serial vừa lấy được để mã hóa Base64.
 Sau khi mở khóa, bạn có thể sử dụng bình thường trong các lần tiếp theo.
     
 🎥 Video hướng dẫn sử dụng
-Xem video luyện tập tại đây
-https://youtu.be/VUjAZG3ekSY?si=MNsvGnKWrgpQt5o3
+Xem video luyện tập tại đây:
+
+
+[![Xem video](https://img.youtube.com/vi/VUjAZG3ekSY/maxresdefault.jpg)](https://youtu.be/VUjAZG3ekSY)
+
+
 
 © Bản quyền
 Ứng dụng được giữ bản quyền bởi Mr. Nguyễn Phúc Anh.
